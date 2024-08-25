@@ -7,7 +7,8 @@ spring:
 
 my:
   mtn-momo:
-    subscription_key: d5dad5dfc7734ad885c1b07eddbe84a0
+    remittances_subscription_key: d5dad5dfc7734ad885c1b07eddbe84a0
     target-environment: sandbox
     user_id: 6ab6db35-3482-48ac-9db5-aa3d877cfffc
     api_key: 8383d7e3101c42dfb2630adfa03d0dc3
+    collections_subscription_key: ba5ee3055f9d45c49fe382107607319b

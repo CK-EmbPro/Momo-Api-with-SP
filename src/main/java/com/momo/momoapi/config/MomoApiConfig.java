@@ -19,6 +19,6 @@ public class MomoApiConfig {
         return requestTemplate -> requestTemplate
                 .header("Authorization", "Bearer " + provider.getAccessToken())
                 .header("X-Target-Environment", configProps.getTargetEnvironment())
-                .header("Ocp-Apim-Subscription-Key", configProps.getSubscriptionKey());
+                .header("Ocp-Apim-Subscription-Key", configProps.getRemittancesSubscriptionKey());
     }
 }

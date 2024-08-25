@@ -11,8 +11,9 @@ import org.springframework.context.annotation.Configuration;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MomoApiConfigProps {
-    private String subscriptionKey;
+    private String remittancesSubscriptionKey;
     private String targetEnvironment;
     private String userId;
     private String apiKey;
+    private String collectionsSubscriptionKey;
 }

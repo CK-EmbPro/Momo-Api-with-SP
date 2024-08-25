@@ -16,8 +16,9 @@ public class AccessTokenProvider {
     private final MomoApiConfigProps configProps;
 
     public String getAccessToken() {
+
         String header = Base64.getEncoder().encodeToString(String.format("%s:%s", configProps.getUserId(), configProps.getApiKey()).getBytes());
-        AuthenticationResponseDto authResponse = authClient.getAccessToken("Basic " + header, configProps.getSubscriptionKey());
+        AuthenticationResponseDto authResponse = authClient.getAccessToken("Basic " + header, configProps.getRemittancesSubscriptionKey());
 
         return authResponse.accessToken();
     }
