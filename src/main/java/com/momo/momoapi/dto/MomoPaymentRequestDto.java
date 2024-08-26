@@ -14,7 +14,7 @@ public class MomoPaymentRequestDto {
     private String currency;
     private String externalId;
     private Payer payer;
-    private Payee payee;
+//    private Payee payee;
     private String payerMessage;
     private String payeeNote;
 

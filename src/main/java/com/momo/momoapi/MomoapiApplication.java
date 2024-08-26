@@ -20,7 +20,7 @@ public class MomoapiApplication {
 	private final MomoApiClient apiClient;
 	private final AccessTokenProvider provider;
 
-	@Bean
+//	@Bean
 	ApplicationRunner application(){
 		return  args -> {
 			AccountBalanceDto accountBalance = apiClient.getAccountBalance();
